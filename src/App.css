@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Georgia", serif;
+  background: #111;
+  color: white;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(
+      rgba(0,0,0,.55),
+      rgba(0,0,0,.75)
+    ),
+    url("/battlefield.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.overlay {
+  text-align: center;
+  max-width: 900px;
+  padding: 30px;
+}
+
+
+h1 {
+  font-size: 5rem;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.subtitle {
+  font-size: 1.5rem;
+  opacity: .9;
+  margin-bottom: 50px;
+}
+
+
+.enter-btn {
+
+  background: transparent;
+  border: 2px solid white;
+
+  color: white;
+
+  padding: 15px 40px;
+
+  font-size: 1.2rem;
+
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+
+.enter-btn:hover {
+
+  background:white;
+  color:black;
+
+}
+
+
+
+/* INTRO */
+
+.intro {
+  min-height: 70vh;
+
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 50px;
+
+  padding: 80px 10%;
+
+  background: #111;
+  color: white;
+
+  align-items: center;
+}
+
+.intro-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.intro-text h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.poem {
+  background: rgba(255, 255, 255, 0.08);
+  text-align: center;
+  border-left: 3px solid #c0392b;
+
+  padding: 35px;
+
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.8;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.poem h3 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.poem p {
+  margin-bottom: 25px;
+}
+
+.poem-note {
+  text-align: right;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+
+/* CARDS */
+
+.gallery {
+
+  display:flex;
+
+  gap:30px;
+
+  padding:80px 10%;
+
+  background:#0c0c0c;
+
+}
+
+
+.card {
+
+  flex:1;
+
+  background:#202020;
+
+  padding:40px;
+
+  border-radius:10px;
+
+  transition:.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.card:hover {
+
+  transform:translateY(-10px);
+
+  background:#292929;
+
+}
+
+
+.card h3 {
+
+  font-size:2rem;
+
+  margin-bottom:20px;
+
+}
+
+
+.card p {
+
+  line-height:1.6;
+
+  color:#ccc;
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+
+  text-align:center;
+
+  padding:40px;
+
+  background:black;
+
+  color:#aaa;
+
+}
+
+.adaptation-header {
+  padding: 120px 15% 50px;
+  text-align: center;
+}
+
+.adaptation-header h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.adaptation-header p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10%;
+}
+
+
+.performance-video {
+  width: 80%;
+  max-width: 1000px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+
+.reflection {
+  padding: 60px 15%;
+
+  line-height: 1.8;
+}
+
+.reflection h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.about-section {
+  padding: 50px 15%;
+}
+
+
+details {
+  background: rgba(255,255,255,0.08);
+
+  padding: 25px;
+
+  border-left: 3px solid #c0392b;
+
+  cursor: pointer;
+}
+
+
+summary {
+  font-size: 28px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+.about-content {
+  margin-top: 25px;
+
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+details {
+  background: rgba(255, 255, 255, 0.08);
+
+  padding: 25px;
+
+  border-left: 3px solid #c0392b;
+
+  cursor: pointer;
+
+  user-select: none;
+}
+
+
+summary {
+  font-size: 28px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  user-select: none;
+}
+.home-button {
+  position: fixed;
+
+  top: 35px;
+  left: 40px;
+
+  z-index: 100;
+
+  padding: 12px 20px;
+
+  background: rgba(255,255,255,0.1);
+
+  color: white;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  font-size: 18px;
+}
+
+
+.home-button:hover {
+  background: rgba(255,255,255,0.25);
+
+  transform: translateX(-5px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.prescription-paper {
+  width: 70%;
+  margin: 50px auto;
+
+  padding: 60px;
+
+  background: #f4ecd8;
+
+  color: #222;
+
+  font-family: Georgia, serif;
+
+  line-height: 1.8;
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+
+  border: 1px solid #c9b88a;
+}
+
+
+.prescription-title {
+  text-align: center;
+
+  border-bottom: 2px solid #222;
+
+  margin-bottom: 30px;
+}
+
+
+.prescription-info {
+  font-size: 18px;
+}
+
+
+.prescription-paper h3 {
+  margin-top: 40px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+}
+
+
+.signature {
+  margin-top: 60px;
+
+  text-align: right;
+
+  font-style: italic;
+}
+
+.game-section {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 5%;
+}
+
+
+.unity-game {
+  width: 90%;
+  height: 700px;
+
+  border: none;
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+  background: black;
+}

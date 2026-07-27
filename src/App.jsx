@@ -3,7 +3,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Performance from "./pages/Performance";
 import Prescription from "./pages/Prescription";
 import Exhibit from "./pages/Exhibit";
-
+import Reveal from "./components/Reveal";
 import "./App.css";
 
 function Home() {
@@ -100,9 +100,9 @@ function Home() {
 
       </section>
 
-
+      
       <section className="gallery" id="adaptations">
-
+        <Reveal>
         <Link to="/performance" className="card">
           <h3>The Poem as Performance</h3>
 
@@ -112,7 +112,7 @@ function Home() {
           </p>
         </Link>
 
-
+        <Reveal>
         <Link to="/prescription" className="card">
           <h3>The Poem as Prescription</h3>
 
@@ -122,7 +122,7 @@ function Home() {
           </p>
         </Link>
 
-
+        <Reveal>
         <Link to="/exhibit" className="card">
           <h3>The Poem as Exhibit</h3>
 

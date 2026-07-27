@@ -25,11 +25,10 @@ function Exhibit() {
         <section className="game-section">
 
         <iframe
-            className="unity-game"
-            src="/game/index.html"
-            title="In Flanders Fields Interactive Experience"
-            allow="fullscreen"
-            tabIndex={0}
+        className="unity-game"
+        src="/Flanders-Fields/game/index.html"
+        title="In Flanders Fields Interactive Experience"
+        allow="fullscreen"
         />
 
         </section>

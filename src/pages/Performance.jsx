@@ -19,17 +19,14 @@ function Performance() {
       <section className="video-section">
 
         <video
-          className="performance-video"
-          controls
+        className="performance-video"
+        controls
         >
-          <source
-            src="/videos/big_buck_bunny.mp4"
+        <source
+            src={`${import.meta.env.BASE_URL}videos/big_buck_bunny.mp4`}
             type="video/mp4"
-          />
-
-          Your browser does not support the video element.
+        />
         </video>
-
       </section>
 
 

@@ -111,6 +111,7 @@ function Home() {
             and atmosphere.
           </p>
         </Link>
+        </Reveal>
 
         <Reveal>
         <Link to="/prescription" className="card">
@@ -121,6 +122,7 @@ function Home() {
             through remembrance and reflection.
           </p>
         </Link>
+        </Reveal>
 
         <Reveal>
         <Link to="/exhibit" className="card">
@@ -131,6 +133,7 @@ function Home() {
             visuals, and historical memory.
           </p>
         </Link>
+        </Reveal>
 
       </section>
 

@@ -1,61 +1,79 @@
-import { Link } from "react-router-dom";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 import "../App.css";
-import FieldScene from "../components/FieldScene";
-function Exhibit() {
+
+
+function ExhibitScene() {
   return (
-    <div className="page">
+    <>
+      <ambientLight intensity={1} />
 
-      <Link to="/#adaptations" className="home-button">
-        Back to Adaptations
-      </Link>
+      <directionalLight
+        position={[5, 5, 5]}
+        intensity={2}
+      />
+
+      {/* Test cube */}
+      <mesh position={[0, 0, 0]}>
+        <boxGeometry args={[2, 2, 2]} />
+        <meshStandardMaterial color="white" />
+      </mesh>
 
 
-      <section className="adaptation-header">
+      <OrbitControls
+        enableZoom={true}
+        minDistance={2}
+        maxDistance={20}
+      />
+    </>
+  );
+}
 
-        <h1>The Poem as Experience</h1>
+
+export default function Exhibit() {
+  return (
+    <div className="exhibit-page">
+
+      {/* 20% sidebar */}
+      <section className="exhibit-info">
+
+        <h1>
+          In Flanders Fields
+        </h1>
 
         <p>
-          A digital interpretation of <em>In Flanders Fields</em> through 
-          visual communication
+          An interactive exploration of John McCrae's
+          poem and the history, memory, and sacrifice
+          behind its creation.
+        </p>
+
+
+        <h2>
+          About the Exhibit
+        </h2>
+
+        <p>
+          Explore artifacts, historical context,
+          and interpretations of the poem through
+          a digital museum experience.
         </p>
 
       </section>
 
 
-    <section className="experience-container">
-      <FieldScene />
-    </section>
 
+      {/* 80% exhibit */}
+      <section className="exhibit-view">
 
+        <Canvas
+          camera={{
+            position:[0,2,8],
+            fov:45
+          }}
+        >
+          <ExhibitScene />
+        </Canvas>
 
-      <section className="about-section">
-
-        <details>
-
-          <summary>
-            About This Adaptation
-          </summary>
-
-
-          <div className="about-content">
-
-            <p>
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam cumque, ut nobis fugiat inventore ullam excepturi eaque quam cum facere molestiae accusamus similique iusto reiciendis, perspiciatis dignissimos deleniti! Accusamus, autem?
-            </p>
-
-
-            <p>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe veritatis sapiente quidem incidunt, facilis illum expedita nulla, laudantium numquam culpa voluptates laborum quasi rerum nam delectus earum eaque amet repellat!
-            </p>
-
-
-            <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia debitis earum unde qui nisi rem excepturi ratione quae. Quos eum nulla distinctio vitae. Molestiae, quidem? Sed quos laborum iste.
-            </p>
-
-          </div>
-
-        </details>
 
       </section>
 
@@ -63,5 +81,3 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia debiti
     </div>
   );
 }
-
-export default Exhibit;

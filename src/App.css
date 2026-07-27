@@ -427,3 +427,86 @@ html {
 
   background: black;
 }
+.exhibit-page {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+
+  overflow: hidden;
+
+  background: #111;
+}
+
+
+
+/* LEFT 20% */
+.exhibit-info {
+
+  width: 20%;
+
+  height: 100vh;
+
+  padding: 35px;
+
+  box-sizing: border-box;
+
+  background: #151515;
+
+  color:white;
+
+  overflow-y:auto;
+}
+
+
+
+.exhibit-info h1 {
+
+  font-size: 32px;
+
+  margin-bottom: 30px;
+
+}
+
+
+
+.exhibit-info h2 {
+
+  margin-top:50px;
+
+  font-size:22px;
+
+}
+
+
+
+.exhibit-info p {
+
+  color:#bbb;
+
+  line-height:1.6;
+
+}
+
+
+
+/* RIGHT 80% */
+.exhibit-view {
+
+  width:80%;
+
+  height:100vh;
+
+  position:relative;
+
+}
+
+
+
+.exhibit-view canvas {
+
+  width:100%;
+
+  height:100%;
+
+}

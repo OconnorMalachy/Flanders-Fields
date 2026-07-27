@@ -13,7 +13,20 @@ body {
 
 
 /* HERO SECTION */
+.hero h1 {
+  animation: fadeIn 2s ease;
+}
 
+@keyframes fadeIn {
+  from {
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to {
+    opacity:1;
+    transform:translateY(0);
+  }
+}
 .hero {
   height: 100vh;
   background:

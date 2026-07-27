@@ -459,15 +459,9 @@ html {
 }
 
 
-
-.exhibit-info h1 {
-
-  font-size: 32px;
-
-  margin-bottom: 30px;
-
+.page-title {
+  text-align:center;
 }
-
 
 
 .exhibit-info h2 {
@@ -508,5 +502,292 @@ html {
   width:100%;
 
   height:100%;
+
+}
+
+/* Back button */
+
+.back-button {
+
+  position:absolute;
+
+  top:25px;
+  left:25px;
+
+  z-index:10;
+
+  padding:12px 20px;
+
+  border-radius:8px;
+
+  border:none;
+
+  background:rgba(0,0,0,0.6);
+
+  color:white;
+
+  font-size:16px;
+
+  cursor:pointer;
+
+}
+
+
+.back-button:hover {
+
+  background:rgba(70,120,255,0.8);
+
+}
+
+
+
+/* Expandable about */
+
+.about-button {
+
+  width:100%;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+
+  background:none;
+
+  border:none;
+
+  color:white;
+
+  font-size:20px;
+
+  text-align:left;
+
+  cursor:pointer;
+
+  padding:15px 0;
+
+}
+
+
+.about-button span {
+
+  font-size:28px;
+
+}
+
+
+
+.about-content {
+
+  max-height:0;
+
+  overflow:hidden;
+
+  opacity:0;
+
+  transition:
+    max-height .4s ease,
+    opacity .4s ease;
+
+}
+
+
+
+.about-content.open {
+
+  max-height:400px;
+
+  opacity:1;
+
+}
+
+
+.about-content p {
+
+  color:#bbb;
+
+  line-height:1.6;
+
+}
+
+.model-label {
+
+  position:absolute;
+
+  top:80px;
+  left:40px;
+
+  z-index:5;
+
+  color:#4da6ff;
+
+  font-family:Arial, sans-serif;
+
+  pointer-events:none;
+
+}
+
+
+.model-label {
+
+  position:absolute;
+
+  top:35px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  z-index:5;
+
+  color:#ffffff;
+
+  opacity:0.75;
+
+  font-family:Arial, sans-serif;
+
+  text-align:center;
+
+  pointer-events:none;
+
+}
+
+
+
+.model-label h2 span {
+  color: #4da6ff;
+}
+.model-label h2 {
+
+  margin:0;
+
+  font-size:11px;
+
+  font-weight:400;
+
+  letter-spacing:3px;
+
+
+
+}
+
+
+.model-label p {
+
+  margin-top:4px;
+
+  font-size:16px;
+
+  font-weight:300;
+
+  letter-spacing:1px;
+
+}
+
+.exhibit-info {
+
+  width:20%;
+  height:100vh;
+
+  padding:35px;
+
+  box-sizing:border-box;
+
+  background:#151515;
+
+  color:white;
+
+  display:flex;
+
+  flex-direction:column;
+
+}
+
+
+
+/* Center title */
+
+.exhibit-info h1 {
+
+  text-align:center;
+  font-family: Georgia, serif;
+  font-size:32px;
+
+
+  line-height:1.2;
+
+  margin-top:20px;
+
+}
+
+
+
+/* Bottom controls */
+
+.sidebar-bottom {
+
+  margin-top:auto;
+
+}
+
+
+
+/* Audio button */
+
+.audio-button {
+
+  width:100%;
+
+  background:none;
+
+  border:none;
+
+  color:#999;
+
+  text-align:left;
+
+  font-family:"JetBrains Mono", monospace;
+
+  font-size:14px;
+
+  padding:12px 0;
+
+  cursor:pointer;
+
+}
+
+
+.audio-button:hover {
+
+  color:#4da6ff;
+
+}
+
+
+
+/* About */
+
+.about-button {
+
+  width:100%;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  background:none;
+
+  border:none;
+
+  color:white;
+
+  font-size:16px;
+
+  cursor:pointer;
+
+  padding:15px 0;
 
 }

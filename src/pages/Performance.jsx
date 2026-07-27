@@ -40,19 +40,12 @@ function Performance() {
           <div className="about-content">
 
             <p>
-              This adaptation transforms John McCrae's poem from a written
-              literary work into a performance that combines oral, visual, and
-              nonverbal communication. By hearing the poem spoken aloud, the
-              audience can experience the emotion and urgency behind the
-              speaker's words.
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam cumque, ut nobis fugiat inventore ullam excepturi eaque quam cum facere molestiae accusamus similique iusto reiciendis, perspiciatis dignissimos deleniti! Accusamus, autem?
             </p>
 
+
             <p>
-              The visual elements accompanying the recitation are designed to
-              emphasize the contrast between the peaceful imagery of nature and
-              the destruction of war. Through changes in tone, pacing, and
-              imagery, this performance aims to create a more immersive
-              experience of remembrance and reflection.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe veritatis sapiente quidem incidunt, facilis illum expedita nulla, laudantium numquam culpa voluptates laborum quasi rerum nam delectus earum eaque amet repellat!
             </p>
 
           </div>

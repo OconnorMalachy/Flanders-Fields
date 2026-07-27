@@ -14,7 +14,7 @@ function Home() {
           <h1>In Flanders Fields</h1>
 
           <p className="subtitle">
-            A Multimodal Exploration of Memory, Sacrifice, and Remembrance
+            <em>In Flanders Fields</em> Multimodal Project
           </p>
         </div>
       </header>
@@ -27,40 +27,21 @@ function Home() {
           <h3>About the Poem</h3>
 
           <p>
-            Written by Lieutenant Colonel John McCrae during the First World War,
-            <em> In Flanders Fields </em> is one of the most recognizable poems of
-            remembrance in modern history. McCrae composed the poem in 1915 while
-            serving as a Canadian physician on the Western Front. Inspired by the
-            battlefield surrounding him, the poem reflects on the lives lost during
-            war while calling upon future generations to remember those who
-            sacrificed themselves.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores est, corporis vel at possimus quas, ipsum voluptates reiciendis tempore harum aliquam eum sequi enim magni excepturi temporibus error consectetur quia?
           </p>
 
           <p>
-            Through vivid imagery of poppies, crosses, and the battlefield landscape,
-            McCrae transforms a specific moment of grief into a universal reflection
-            on memory and responsibility. The contrast between the beauty of nature
-            and the destruction of war creates a powerful emotional tension, allowing
-            the poem to serve as both an expression of mourning and a lasting symbol
-            of remembrance.
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi eos laborum animi, tempore et esse tempora numquam recusandae quod alias, optio, cupiditate veritatis voluptatum ut sunt quos dolor sapiente nisi.
           </p>
 
           <h3>Project Purpose</h3>
 
           <p>
-            This project explores how a poem can be transformed through different
-            forms of communication while preserving its original meaning. Although
-            <em> In Flanders Fields </em> was originally written as a literary work,
-            its themes of sacrifice, remembrance, and human connection can be
-            communicated through many different mediums.
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis in reprehenderit, accusantium, vitae obcaecati aperiam suscipit dolores error ut aliquam facere quisquam ea ullam? Dolorum dignissimos excepturi assumenda neque sapiente?
           </p>
 
           <p>
-            Through the WOVEN communication modalities of Written, Oral, Visual,
-            Electronic, and Nonverbal communication, these adaptations reinterpret
-            McCrae's poem for new audiences. Each adaptation presents a unique way
-            to experience the poem while maintaining its central themes of memory
-            and reflection.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolorem maiores quod, suscipit tempora odio dolore, repellat accusamus velit, magnam aliquid harum rem autem odit expedita labore veniam architecto! Similique.
           </p>
 
         </div>
@@ -94,7 +75,7 @@ function Home() {
           </p>
 
           <p className="poem-note">
-            — Lieutenant Colonel John McCrae, 1915
+            - John McCrae, 1915
           </p>
         </div>
 
@@ -107,8 +88,7 @@ function Home() {
           <h3>The Poem as Performance</h3>
 
           <p>
-            Experience the poem through oral recitation, visual storytelling,
-            and atmosphere.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis unde earum fugiat fugit consequuntur ullam necessitatibus et in, corrupti veniam sunt, voluptatem animi impedit tempora ut officia placeat ipsa.
           </p>
         </Link>
 
@@ -117,8 +97,7 @@ function Home() {
           <h3>The Poem as Prescription</h3>
 
           <p>
-            Explore how the poem can address the emotional ailment of forgetting
-            through remembrance and reflection.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident nulla? Repudiandae doloremque vel dignissimos aperiam totam eaque illum neque reprehenderit ipsam, quibusdam dolorem? Earum dignissimos ex officiis culpa ratione.
           </p>
         </Link>
 
@@ -128,8 +107,7 @@ function Home() {
           <h3>The Poem as Exhibit</h3>
 
           <p>
-            Discover an interactive interpretation of the poem through artifacts,
-            visuals, and historical memory.
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi eius, assumenda repellat recusandae delectus voluptatem maiores sequi dignissimos, necessitatibus, neque voluptate? Quos nam accusantium repudiandae doloremque ipsa maiores ratione aliquid?
           </p>
         </Link>
       

@@ -6,7 +6,7 @@ function Prescription() {
     <div className="page">
 
       <Link to="/#adaptations" className="home-button">
-        ← Back to Adaptations
+        Back to Adaptations
       </Link>
 
 
@@ -15,7 +15,7 @@ function Prescription() {
 
         <p>
           A literary prescription designed to treat historical apathy through
-          remembrance, empathy, and reflection.
+          the themes of <em> In Flanders Fields</em>
         </p>
       </section>
 
@@ -163,20 +163,14 @@ function Prescription() {
 
           <div className="about-content">
 
-            <p>
-              This adaptation reimagines <em>In Flanders Fields</em> as a
-              medical prescription designed to address the emotional ailment
-              of historical apathy. By framing remembrance as a form of
-              treatment, the poem becomes a tool for restoring empathy and
-              encouraging a stronger connection with the past.
-            </p>
 
             <p>
-              The prescription format allows the poem's themes of memory,
-              sacrifice, and responsibility to be communicated through a new
-              genre. Instead of simply describing the effects of war, the
-              adaptation focuses on how engaging with history can influence
-              the attitudes and actions of the audience.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe veritatis sapiente quidem incidunt, facilis illum expedita nulla, laudantium numquam culpa voluptates laborum quasi rerum nam delectus earum eaque amet repellat!
+            </p>
+
+
+            <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia debitis earum unde qui nisi rem excepturi ratione quae. Quos eum nulla distinctio vitae. Molestiae, quidem? Sed quos laborum iste.
             </p>
 
           </div>

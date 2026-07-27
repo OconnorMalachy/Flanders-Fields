@@ -37,7 +37,7 @@ function Performance() {
             About This Adaptation
           </summary>
 
-          <div className="about-content">
+          <div className="exhibit-about-content">
 
             <p>
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam cumque, ut nobis fugiat inventore ullam excepturi eaque quam cum facere molestiae accusamus similique iusto reiciendis, perspiciatis dignissimos deleniti! Accusamus, autem?

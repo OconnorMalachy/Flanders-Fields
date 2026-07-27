@@ -161,7 +161,7 @@ function Prescription() {
           </summary>
 
 
-          <div className="about-content">
+          <div className="exhibit-about-content open">
 
 
             <p>

@@ -72,7 +72,7 @@ export default function Exhibit() {
             </span>
 
             <span>
-              {aboutOpen ? "−" : "+"}
+              {aboutOpen ? "-" : "+"}
             </span>
 
           </button>
@@ -117,7 +117,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur et deserunt r
           className="back-button"
           onClick={() => window.history.back()}
         >
-          ← Back
+          Back
         </button>
 
 

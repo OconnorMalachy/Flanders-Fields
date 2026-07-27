@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../App.css";
-
+import FieldScene from "../components/FieldScene";
 function Exhibit() {
   return (
     <div className="page">
@@ -22,16 +22,10 @@ function Exhibit() {
       </section>
 
 
-        <section className="game-section">
+    <section className="experience-container">
+      <FieldScene />
+    </section>
 
-        <iframe
-        className="unity-game"
-        src="/Flanders-Fields/game/index.html"
-        title="In Flanders Fields Interactive Experience"
-        allow="fullscreen"
-        />
-
-        </section>
 
 
       <section className="about-section">

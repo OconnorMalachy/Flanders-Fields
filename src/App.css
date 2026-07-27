@@ -126,7 +126,7 @@ h3 {
 .poem {
   background: rgba(255, 255, 255, 0.08);
   text-align: center;
-  border-left: 3px solid #c0392b;
+  border-left: 3px solid #fefefe;
 
   padding: 35px;
 
@@ -280,7 +280,7 @@ details {
 
   padding: 25px;
 
-  border-left: 3px solid #c0392b;
+  border-left: 3px solid #ffffff;
 
   cursor: pointer;
 }
@@ -300,13 +300,18 @@ summary {
   font-size: 18px;
   line-height: 1.8;
 }
-
+.experience-container {
+    width: 100%;
+    height: 700px;
+    border-radius: 12px;
+    overflow: hidden;
+}
 details {
   background: rgba(255, 255, 255, 0.08);
 
   padding: 25px;
 
-  border-left: 3px solid #c0392b;
+  border-left: 3px solid #ffffff;
 
   cursor: pointer;
 

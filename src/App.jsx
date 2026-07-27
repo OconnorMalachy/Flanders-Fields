@@ -102,7 +102,7 @@ function Home() {
 
       
       <section className="gallery" id="adaptations">
-        <Reveal>
+
         <Link to="/performance" className="card">
           <h3>The Poem as Performance</h3>
 
@@ -111,9 +111,8 @@ function Home() {
             and atmosphere.
           </p>
         </Link>
-        </Reveal>
 
-        <Reveal>
+
         <Link to="/prescription" className="card">
           <h3>The Poem as Prescription</h3>
 
@@ -122,9 +121,9 @@ function Home() {
             through remembrance and reflection.
           </p>
         </Link>
-        </Reveal>
 
-        <Reveal>
+
+
         <Link to="/exhibit" className="card">
           <h3>The Poem as Exhibit</h3>
 
@@ -133,7 +132,7 @@ function Home() {
             visuals, and historical memory.
           </p>
         </Link>
-        </Reveal>
+      
 
       </section>
 

@@ -1,9 +1,39 @@
 import { useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { useGLTF } from "@react-three/drei";
+//import exhibitModel from "../assets/flanders_exhibit.glb";
 import "../App.css";
 
+function ExhibitScene() {
+  const { scene } = useGLTF(
+    `${import.meta.env.BASE_URL}models/flanders_exhibit.glb`
+  );
 
+  return (
+    <>
+      <ambientLight intensity={1.5} />
+
+      <directionalLight
+        position={[5, 5, 5]}
+        intensity={2}
+      />
+
+      <primitive
+        object={scene}
+        scale={3}
+        position={[0, 0, 0]}
+      />
+
+      <OrbitControls
+        enableZoom
+        minDistance={2}
+        maxDistance={40}
+      />
+    </>
+  );
+}
+/*
 function ExhibitScene() {
   return (
     <>
@@ -13,10 +43,6 @@ function ExhibitScene() {
         position={[5, 5, 5]}
         intensity={2}
       />
-
-
-      {/* Temporary test object */}
-      {/* Replace this with your Blender model later */}
       <mesh>
         <boxGeometry args={[2, 2, 2]} />
         <meshStandardMaterial color="white" />
@@ -31,7 +57,7 @@ function ExhibitScene() {
     </>
   );
 }
-
+*/
 
 export default function Exhibit() {
 
@@ -68,7 +94,7 @@ export default function Exhibit() {
             onClick={() => setAboutOpen(!aboutOpen)}
           >
             <span>
-              About the Exhibit
+              About this adaptation
             </span>
 
             <span>

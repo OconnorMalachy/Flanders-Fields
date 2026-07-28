@@ -23,7 +23,7 @@ function Performance() {
         controls
         >
         <source
-            src={`${import.meta.env.BASE_URL}videos/big_buck_bunny.mp4`}
+            src={`${import.meta.env.BASE_URL}videos/flanders_fields.mp4`}
             type="video/mp4"
         />
         </video>

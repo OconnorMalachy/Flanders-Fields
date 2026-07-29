@@ -4,7 +4,7 @@ import { OrbitControls } from "@react-three/drei";
 import { useGLTF } from "@react-three/drei";
 //import exhibitModel from "../assets/flanders_exhibit.glb";
 import "../App.css";
-
+/*
 function ExhibitScene() {
   const { scene } = useGLTF(
     `${import.meta.env.BASE_URL}models/flanders_exhibit.glb`
@@ -33,7 +33,7 @@ function ExhibitScene() {
     </>
   );
 }
-/*
+*/
 function ExhibitScene() {
   return (
     <>
@@ -57,7 +57,7 @@ function ExhibitScene() {
     </>
   );
 }
-*/
+
 
 export default function Exhibit() {
 

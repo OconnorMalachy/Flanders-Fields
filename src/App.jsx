@@ -27,22 +27,16 @@ function Home() {
           <h3>About the Poem</h3>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores est, corporis vel at possimus quas, ipsum voluptates reiciendis tempore harum aliquam eum sequi enim magni excepturi temporibus error consectetur quia?
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae assumenda quod similique, modi autem voluptas porro adipisci suscipit fugit asperiores quaerat nobis tempora provident ipsa! Quas quaerat, delectus quo ea vel alias numquam velit laborum at nihil. Voluptatem autem culpa delectus eligendi adipisci earum unde corrupti voluptatum ab facere. Architecto eaque quisquam pariatur sequi eius in labore, veniam ab minus repudiandae voluptates quae odio excepturi maxime magni voluptatem quo dolorum nisi ratione, ea doloribus placeat laborum. Voluptatum, cum. Doloribus dicta ducimus accusamus officiis modi cumque et distinctio, ea sint impedit dolorum quam ipsa est dolorem exercitationem reprehenderit perspiciatis cum provident temporibus excepturi! Iusto ullam mollitia ducimus possimus repellat inventore, porro pariatur corporis voluptas iure, ratione dolores harum incidunt temporibus! Soluta voluptates, perferendis impedit error repellat beatae nam at magni cumque omnis optio voluptatem dignissimos praesentium eum aliquid corrupti culpa molestiae unde dolores ipsam sunt tempore amet magnam id! Illo maxime fugit est distinctio enim nam tempore rem atque odio recusandae officiis porro ullam placeat possimus asperiores numquam minima voluptate ipsam illum, natus eos explicabo magnam laborum? Et laudantium sint deleniti ratione non provident fugit vero sed culpa labore voluptatibus velit deserunt quidem officia unde minima molestiae voluptatum, aliquid esse corporis!
           </p>
 
           <p>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi eos laborum animi, tempore et esse tempora numquam recusandae quod alias, optio, cupiditate veritatis voluptatum ut sunt quos dolor sapiente nisi.
           </p>
 
           <h3>Project Purpose</h3>
 
-          <p>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis in reprehenderit, accusantium, vitae obcaecati aperiam suscipit dolores error ut aliquam facere quisquam ea ullam? Dolorum dignissimos excepturi assumenda neque sapiente?
-          </p>
 
-          <p>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolorem maiores quod, suscipit tempora odio dolore, repellat accusamus velit, magnam aliquid harum rem autem odit expedita labore veniam architecto! Similique.
-          </p>
+
 
         </div>
 
@@ -88,8 +82,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolorem maior
           <h3>The Poem as Performance</h3>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis unde earum fugiat fugit consequuntur ullam necessitatibus et in, corrupti veniam sunt, voluptatem animi impedit tempora ut officia placeat ipsa.
-          </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum voluptates fugit ullam laborum quaerat repudiandae ipsam magnam, saepe eligendi rem vel cum esse modi, quasi voluptatibus officia atque. Quibusdam, sed laboriosam accusantium adipisci asperiores praesentium quisquam vitae est dolor vel ut nobis omnis similique, atque ab. Nemo quasi animi quia deserunt suscipit praesentium beatae amet soluta ipsa exercitationem! In laboriosam atque iure autem ipsa nobis accusantium temporibus repellat. Dolorum, facere quis quidem neque maiores alias tenetur ducimus autem cupiditate vero, sapiente esse quasi culpa molestias doloremque est commodi? Nisi esse obcaecati debitis amet qui molestias dignissimos molestiae eum. Assumenda suscipit eius, quidem ducimus libero sit fugit quos quia in praesentium fugiat numquam, incidunt molestias vero accusamus? Provident esse beatae consequatur doloribus veritatis doloremque soluta odio porro sit aperiam, ad quo nesciunt quas dolorem reiciendis dicta minus sequi mollitia facere officiis neque aliquid modi atque illum! Debitis ut facilis, illum assumenda doloribus quam obcaecati voluptas, sed, aperiam nesciunt officia mollitia eveniet quia voluptatibus iure. Quam facilis fuga veritatis et. Qui quos accusamus architecto ea est fuga enim quam possimus aperiam autem rem ab, praesentium voluptas voluptates, accusantium suscipit velit corrupti nemo officia cum dicta quasi ratione ad quae! Hic, fugiat.          </p>
         </Link>
 
 

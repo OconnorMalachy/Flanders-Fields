@@ -10,14 +10,14 @@ function Performance() {
         <h1>The Poem as Performance</h1>
 
         <p>
-          Experience <em>In Flanders Fields</em> through oral recitation and
+           <em>In Flanders Fields</em> as an oral recitation with
           visual storytelling.
         </p>
       </section>
 
 
       <section className="video-section">
-
+         
         <video
         className="performance-video"
         controls

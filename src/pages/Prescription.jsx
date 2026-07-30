@@ -30,7 +30,7 @@ function Prescription() {
         <div className="prescription-info">
 
           <p>
-            <strong>Patient:</strong> The Historically Disconnected
+            <strong>Patient:</strong> The Historically Apathetic
           </p>
 
           <p>
@@ -38,12 +38,11 @@ function Prescription() {
           </p>
 
           <p>
-            <strong>Prescribed By:</strong> Lieutenant Colonel John McCrae
+            <strong>Prescribed By:</strong> John McCrae
           </p>
 
           <p>
-            <strong>Treatment Goal:</strong> Restoration of remembrance,
-            empathy, and historical connection
+            <strong>Treatment Goal:</strong> Connection to history
           </p>
 
         </div>

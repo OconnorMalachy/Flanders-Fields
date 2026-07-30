@@ -5,18 +5,17 @@ import * as THREE from "three";
 import "../App.css";
 
 
-
-function SceneAudio({ enabled }) {
-
+function AudioController({ enabled }) {
   const { camera } = useThree();
+
   const soundRef = useRef(null);
+  const loadedRef = useRef(false);
 
 
   useEffect(() => {
 
     const listener = new THREE.AudioListener();
     camera.add(listener);
-
 
     const sound = new THREE.Audio(listener);
     soundRef.current = sound;
@@ -32,6 +31,8 @@ function SceneAudio({ enabled }) {
         sound.setLoop(true);
         sound.setVolume(0.25);
 
+        loadedRef.current = true;
+
         if (enabled) {
           sound.play();
         }
@@ -41,38 +42,41 @@ function SceneAudio({ enabled }) {
 
 
     return () => {
-
-      if (soundRef.current) {
-        soundRef.current.stop();
+      if (sound.isPlaying) {
+        sound.stop();
       }
 
       camera.remove(listener);
-
     };
 
   }, [camera]);
 
 
-
   useEffect(() => {
 
-    if (!soundRef.current) return;
+    const sound = soundRef.current;
+
+    if (!sound || !loadedRef.current)
+      return;
 
 
     if (enabled) {
 
-      if (!soundRef.current.isPlaying) {
-        soundRef.current.play();
-      }
+      THREE.AudioContext
+        .getContext()
+        .resume();
+
+      if (!sound.isPlaying)
+        sound.play();
 
     } else {
 
-      soundRef.current.pause();
+      if (sound.isPlaying)
+        sound.pause();
 
     }
 
   }, [enabled]);
-
 
 
   return null;
@@ -80,11 +84,16 @@ function SceneAudio({ enabled }) {
 
 
 
-function ExhibitScene({ soundEnabled }) {
+function ExhibitScene({ onLoaded }) {
 
   const { scene } = useGLTF(
     `${import.meta.env.BASE_URL}models/trench.glb`
   );
+
+
+  useEffect(() => {
+    onLoaded();
+  }, [onLoaded]);
 
 
   scene.traverse((child) => {
@@ -95,24 +104,17 @@ function ExhibitScene({ soundEnabled }) {
   });
 
 
-
   return (
     <>
-
-      <SceneAudio enabled={soundEnabled} />
-
-
 
       <fog
         attach="fog"
         args={[
           "#9aa6b2",
-          .5,
+          0.5,
           15
-
         ]}
       />
-
 
 
       <ambientLight
@@ -121,32 +123,26 @@ function ExhibitScene({ soundEnabled }) {
       />
 
 
-
       <hemisphereLight
         skyColor="#8899aa"
         groundColor="#30251d"
-        intensity={.35}
+        intensity={0.35}
       />
 
 
-
       <directionalLight
-        position={[-8, 12, 6]}
+        position={[-8,12,6]}
         intensity={3.5}
         color="#ffd9a3"
         castShadow
-
         shadow-mapSize-width={4096}
         shadow-mapSize-height={4096}
-
         shadow-camera-left={-15}
         shadow-camera-right={15}
         shadow-camera-top={15}
         shadow-camera-bottom={-15}
-
         shadow-bias={-0.0002}
       />
-
 
 
       <directionalLight
@@ -156,27 +152,21 @@ function ExhibitScene({ soundEnabled }) {
       />
 
 
-
       <Environment preset="sunset" />
-
 
 
       <primitive
         object={scene}
         scale={3}
-        position={[0,0,0]}
       />
-
 
 
       <OrbitControls
         enableZoom
         minDistance={4}
         maxDistance={13}
-
         minPolarAngle={0.4}
         maxPolarAngle={1.45}
-
         target={[0,0.5,0]}
       />
 
@@ -186,21 +176,15 @@ function ExhibitScene({ soundEnabled }) {
 
 
 
-
-
 export default function Exhibit() {
 
-
-  const [aboutOpen, setAboutOpen] = useState(false);
-
   const [soundEnabled, setSoundEnabled] = useState(false);
-
+  const [modelLoaded, setModelLoaded] = useState(false);
 
 
   return (
 
     <div className="exhibit-page">
-
 
 
       <section className="exhibit-info">
@@ -211,9 +195,7 @@ export default function Exhibit() {
         </h1>
 
 
-
         <div className="sidebar-bottom">
-
 
 
           <div className="audio-reminder">
@@ -223,33 +205,33 @@ export default function Exhibit() {
               Best with sound
             </em>
 
-<button
-  className={`sound-button ${soundEnabled ? "enabled" : ""}`}
-  onClick={() => setSoundEnabled(!soundEnabled)}
->
-  <span className="sound-icon">
-    {soundEnabled ? "🔊" : "🔇"}
-  </span>
 
-  {soundEnabled
-    ? "Sound On"
-    : "Sound Off"
-  }
-</button>
+            <button
+              disabled={!modelLoaded}
+              className={`sound-button ${
+                soundEnabled ? "enabled" : ""
+              }`}
+              onClick={() => setSoundEnabled(!soundEnabled)}
+            >
+
+              <span className="sound-icon">
+                {soundEnabled ? "🔊" : "🔇"}
+              </span>
+
+              {modelLoaded
+                ? soundEnabled
+                  ? "Sound On"
+                  : "Sound Off"
+                : "Loading..."
+              }
+
+            </button>
 
 
           </div>
 
 
-
-
-          <div
-            className={
-              aboutOpen
-              ? "about-content open"
-              : "about-content"
-            }
-          >
+          <div className="about-content">
 
             <p>
               This exhibit transforms <em>In Flanders Fields</em>
@@ -264,7 +246,6 @@ export default function Exhibit() {
               connection between place, history, and poetry.
             </p>
 
-
           </div>
 
 
@@ -272,8 +253,6 @@ export default function Exhibit() {
 
 
       </section>
-
-
 
 
 
@@ -288,19 +267,13 @@ export default function Exhibit() {
         </button>
 
 
-
         <div className="model-label">
 
           <h2>
-            Model:{" "}
-            <span>Flanders Poppies</span>
-            {" "}by:{" "}
-            <span>Malachy O'Connor</span>
+            Model: <span>Flanders Poppies</span>
           </h2>
 
         </div>
-
-
 
 
 
@@ -322,19 +295,19 @@ export default function Exhibit() {
 
 
           onCreated={({scene}) => {
-
             scene.background =
               new THREE.Color("#c78989");
-
           }}
 
         >
 
-          <ExhibitScene soundEnabled={soundEnabled}/>
+          <AudioController enabled={soundEnabled}/>
 
+          <ExhibitScene
+            onLoaded={() => setModelLoaded(true)}
+          />
 
         </Canvas>
-
 
 
       </section>

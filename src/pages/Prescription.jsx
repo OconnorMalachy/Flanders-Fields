@@ -152,32 +152,6 @@ function Prescription() {
       </section>
 
 
-      <section className="about-section">
-
-        <details>
-
-          <summary>
-            About This Adaptation
-          </summary>
-
-
-          <div className="exhibit-about-content open">
-
-
-            <p>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe veritatis sapiente quidem incidunt, facilis illum expedita nulla, laudantium numquam culpa voluptates laborum quasi rerum nam delectus earum eaque amet repellat!
-            </p>
-
-
-            <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia debitis earum unde qui nisi rem excepturi ratione quae. Quos eum nulla distinctio vitae. Molestiae, quidem? Sed quos laborum iste.
-            </p>
-
-          </div>
-
-        </details>
-
-      </section>
 
 
     </div>

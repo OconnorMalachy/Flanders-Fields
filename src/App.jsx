@@ -26,15 +26,18 @@ function Home() {
 
           <h3>About the Poem</h3>
 
-          <p>
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae assumenda quod similique, modi autem voluptas porro adipisci suscipit fugit asperiores quaerat nobis tempora provident ipsa! Quas quaerat, delectus quo ea vel alias numquam velit laborum at nihil. Voluptatem autem culpa delectus eligendi adipisci earum unde corrupti voluptatum ab facere. Architecto eaque quisquam pariatur sequi eius in labore, veniam ab minus repudiandae voluptates quae odio excepturi maxime magni voluptatem quo dolorum nisi ratione, ea doloribus placeat laborum. Voluptatum, cum. Doloribus dicta ducimus accusamus officiis modi cumque et distinctio, ea sint impedit dolorum quam ipsa est dolorem exercitationem reprehenderit perspiciatis cum provident temporibus excepturi! Iusto ullam mollitia ducimus possimus repellat inventore, porro pariatur corporis voluptas iure, ratione dolores harum incidunt temporibus! Soluta voluptates, perferendis impedit error repellat beatae nam at magni cumque omnis optio voluptatem dignissimos praesentium eum aliquid corrupti culpa molestiae unde dolores ipsam sunt tempore amet magnam id! Illo maxime fugit est distinctio enim nam tempore rem atque odio recusandae officiis porro ullam placeat possimus asperiores numquam minima voluptate ipsam illum, natus eos explicabo magnam laborum? Et laudantium sint deleniti ratione non provident fugit vero sed culpa labore voluptatibus velit deserunt quidem officia unde minima molestiae voluptatum, aliquid esse corporis!
+<p>
+  <em>In Flanders Fields</em> by John McCrae is among the most influential poems on war and has come to define the remembrance of the First World War. Lieutenant-Colonel McCrae was a soldier and surgeon during the war where he wrote <em>In Flanders Fields</em> in 1915 after witnessing the death of his friend Alexis Helmer during the Second Battle of Ypres in Belgium (The Canadian Encyclopedia). Motivated by the death and devastation of the battlefield around him, McCrae wrote his poem focused on the contrasting continuities of nature he saw, such as the fast-blooming poppies near the graves of recently killed soldiers. The poem, which was first published in <em>Punch</em> magazine, quickly gained international interest. It became a staple in the Allied war effort; it was used widely in recruitment, war-bond advertisements, and other forms of propaganda across Britain and Canada (Gilder Lehrman Institute). The red poppy, which is featured prominently in the poem’s gripping imagery, has become an image of remembrance and serves as an enduring memorial to those who died in the First World War (Evergreen Museum & Library).
+</p>
+
+          <h3><br/>Purposes of Adaptations</h3>
+<p>
+  My three adaptations of <em>In Flanders Fields</em> explore the poem’s message of remembrance and how it can be effectively communicated through a wide range of media. Each adaptation takes the poem’s core themes of sacrifice, memory, and piety and transforms them in a manner digestible to a large variety of audiences. In presenting these ideas via different modes of communication, the adaptations give the audience the ability to engage with the poem’s message in new and meaningful ways. While each medium approaches the poem in a different way, all three adaptations pay fidelity to the guiding message of honoring the sacrifices of the past through focused reflection.
+</p>
+
+          <p id="purpose">
+            <em><br/>Below you will find more about the specific process and purpose of each adaptation on their card <br/> Click on each to view the adaptation</em>
           </p>
-
-          <p>
-          </p>
-
-          <h3>Project Purpose</h3>
-
 
 
 
@@ -82,7 +85,9 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae assumenda quod 
           <h3>The Poem as Performance</h3>
 
           <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum voluptates fugit ullam laborum quaerat repudiandae ipsam magnam, saepe eligendi rem vel cum esse modi, quasi voluptatibus officia atque. Quibusdam, sed laboriosam accusantium adipisci asperiores praesentium quisquam vitae est dolor vel ut nobis omnis similique, atque ab. Nemo quasi animi quia deserunt suscipit praesentium beatae amet soluta ipsa exercitationem! In laboriosam atque iure autem ipsa nobis accusantium temporibus repellat. Dolorum, facere quis quidem neque maiores alias tenetur ducimus autem cupiditate vero, sapiente esse quasi culpa molestias doloremque est commodi? Nisi esse obcaecati debitis amet qui molestias dignissimos molestiae eum. Assumenda suscipit eius, quidem ducimus libero sit fugit quos quia in praesentium fugiat numquam, incidunt molestias vero accusamus? Provident esse beatae consequatur doloribus veritatis doloremque soluta odio porro sit aperiam, ad quo nesciunt quas dolorem reiciendis dicta minus sequi mollitia facere officiis neque aliquid modi atque illum! Debitis ut facilis, illum assumenda doloribus quam obcaecati voluptas, sed, aperiam nesciunt officia mollitia eveniet quia voluptatibus iure. Quam facilis fuga veritatis et. Qui quos accusamus architecto ea est fuga enim quam possimus aperiam autem rem ab, praesentium voluptas voluptates, accusantium suscipit velit corrupti nemo officia cum dicta quasi ratione ad quae! Hic, fugiat.          </p>
+The video performance is a combination of a spoken recitation of the poem and several video clips, ambient music, and captioning. For the recitation, I utilized vocal pauses and tonal inflections to strengthen the emotional impact and weight of the poem. The visuals mirror the progression of the poem, going from peaceful fields to a grave yard and ultimately to a sunset, reinforcing the poem's contrast of natural beauty and war as well as the responsibility to continue the legacy of the dead. 
+<br/>This adaptation was designed to make the tone of the poem more explicit via an immersion into the emotions through visual and auditory suggestions. In contrast to the written poems' communication through language alone, the most powerful aspects of this adaptation are those which are unspoken and lend the audience to connect with the themes more personally. This interpretation encourages the viewer to focus on the human suffering caused by war and to develop an attitude of responsibility towards remembrance.
+</p>
         </Link>
 
 
@@ -90,7 +95,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum voluptat
           <h3>The Poem as Prescription</h3>
 
           <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident nulla? Repudiandae doloremque vel dignissimos aperiam totam eaque illum neque reprehenderit ipsam, quibusdam dolorem? Earum dignissimos ex officiis culpa ratione.
+The prescription imagines <em>In Flanders Fields</em> as a medication toward historical apathy. In real life, McCrae was originally a physician before he was a soldier (canadianencyclopedia) so this presentation of the poem is fitting. Instead of treating a wound, the poem is intended to address a larger societal indifference toward the labors of previous generations in securing the future. I designed the prescription to look like a real prescription, however the medical lingo is replaced with tasks centered around reflection and remembrance. 
+<br/>The adaptation sought to establish memory of the past as a necessity for a healthy society. Through the framing of remembrance as a treatment, the adaptation implies that an indifference towards history is a grave fault which must be remedied. This adaptation is a direct address to the audience to view memorializing those who sacrificed their lives as a responsibility rather than a tradition.
+
           </p>
         </Link>
 
@@ -100,7 +107,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident nul
           <h3>The Poem as Exhibit</h3>
 
           <p>
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi eius, assumenda repellat recusandae delectus voluptatem maiores sequi dignissimos, necessitatibus, neque voluptate? Quos nam accusantium repudiandae doloremque ipsa maiores ratione aliquid?
+
+My final adaptation is a digital exhibit which features a three-dimensional model of the poems setting. This adaptation is unique in that it does not hold the hand of the audience; instead they are allowed to explore the environment at their own leisure with ambient noises in the background. This format is similar to a living museum of the poem as it engages the visitors to experience history through their own curiosity and observations.
+<br/>This adaptation creates a connection between the audience and the actual history which inspired <em>In Flanders Fields</em>. Through the placement of the audience in the poem's setting, the exhibit expands the poem's message to the circumstances which are crucial to understanding it. This approach puts the audience into an active role and forces them to find their own significance. The intended take-away is that the audience recognizes how McCrae's words were not of some foreign imaginary world, but rather of a real place not too long ago.
           </p>
         </Link>
       
@@ -108,11 +117,31 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi eius, assumend
       </section>
 
 
-      <footer>
-        <p>
-          Malachy O'Connor | English 1102
-        </p>
-      </footer>
+<footer className="works-cited">
+
+  <p>
+    Malachy O'Connor | English 1102
+  </p>
+
+  <h2>Works Cited</h2>
+
+  <p className="citation">
+    "In Flanders Fields." <em>The Canadian Encyclopedia</em>, 
+    https://thecanadianencyclopedia.ca/en/article/in-flanders-fields.
+  </p>
+
+  <p className="citation">
+    "World War I Poems: 'In Flanders Fields' and 'The Answer' (1918)."
+    <em> Gilder Lehrman Institute of American History</em>, 
+    https://www.gilderlehrman.org/history-resources/spotlight-primary-source/world-war-i-poems-flanders-fields-and-answer-1918.
+  </p>
+
+  <p className="citation">
+    "Veterans Day Poppies." <em>Evergreen Museum</em>, 
+    https://www.evergreenmuseum.org/2024/07/30/veterans-day-poppies/.
+  </p>
+
+</footer>
 
     </div>
   );

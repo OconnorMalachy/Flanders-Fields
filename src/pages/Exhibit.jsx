@@ -88,20 +88,7 @@ export default function Exhibit() {
 
 
 
-          {/* Expandable About */}
-          <button
-            className="about-button"
-            onClick={() => setAboutOpen(!aboutOpen)}
-          >
-            <span>
-              About this adaptation
-            </span>
-
-            <span>
-              {aboutOpen ? "-" : "+"}
-            </span>
-
-          </button>
+          
 
 
 

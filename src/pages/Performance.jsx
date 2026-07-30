@@ -32,25 +32,7 @@ function Performance() {
 
       <section className="about-section">
 
-        <details>
-          <summary>
-            About This Adaptation
-          </summary>
 
-          <div className="exhibit-about-content">
-
-            <p>
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam cumque, ut nobis fugiat inventore ullam excepturi eaque quam cum facere molestiae accusamus similique iusto reiciendis, perspiciatis dignissimos deleniti! Accusamus, autem?
-            </p>
-
-
-            <p>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe veritatis sapiente quidem incidunt, facilis illum expedita nulla, laudantium numquam culpa voluptates laborum quasi rerum nam delectus earum eaque amet repellat!
-            </p>
-
-          </div>
-
-        </details>
 
       </section>
 

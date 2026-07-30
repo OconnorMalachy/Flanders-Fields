@@ -144,7 +144,7 @@ function Prescription() {
           </p>
 
           <p>
-            J. McCrae
+            
           </p>
 
         </div>
